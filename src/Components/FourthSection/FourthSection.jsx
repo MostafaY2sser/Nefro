@@ -1,11 +1,11 @@
 
-
+import vedio from '../../assets/images/FourthSection/vedio.png'
 
 
 const FourthSection = () => {
     return (
-        <div>
-            <h1>Fourth Section </h1>
+        <div className='mb-10 lg:mb-20' id="four">
+            <img src={vedio} alt="" />
         </div>
     )
 }

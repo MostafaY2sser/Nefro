@@ -16,8 +16,8 @@ const FirstSection = () => {
     ]
 
     return (
-        <div className="my-5 lg:my-10 flex items-center justify-center flex-col gap-5">
-            <div className="title text-[40px] font-[700] relative after:content-[''] after:absolute after:bg-maincolor after:rounded-lg after:w-[30%] after:h-[5px] after:bottom-[-12px] after:right-[50%] after:translate-x-[50%] 
+        <div className="my-5 lg:my-10 flex items-center justify-center flex-col gap-5" id='one'>
+            <div className="title text-[30px] lg:text-[40px] font-[700] relative after:content-[''] after:absolute after:bg-maincolor after:rounded-lg after:w-[30%] after:h-[5px] after:bottom-[-12px] after:right-[50%] after:translate-x-[50%] 
                 before:content-[''] before:absolute before:bg-[#333333b2] before:w-[50%] before:h-[1px] before:bottom-[-10px] before:right-[50%] before:translate-x-[50%] ">
                 <span className="text-maincolor">Why</span>
                 <span> Choose US ?</span>

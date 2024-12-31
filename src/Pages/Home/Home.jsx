@@ -1,3 +1,4 @@
+import FifthSection from "../../Components/FifthSection/FifthSection"
 import FirstSection from "../../Components/FirstSection/FirstSection"
 import Footer from "../../Components/Footer/Footer"
 import FourthSection from "../../Components/FourthSection/FourthSection"
@@ -17,6 +18,7 @@ const Home = () => {
                 <SecondSection/>
                 <ThirdSection/>
                 <FourthSection/>
+                <FifthSection/>
                 <SixthSection/>
             </div>
             <Footer/>
